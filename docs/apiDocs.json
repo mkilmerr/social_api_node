@@ -1,0 +1,22 @@
+{
+   "post": {
+
+       "/": "get all posts",
+       "/post": "create a new post",
+       "/posts/by/:id" : "get posts by user",
+       "/post/:id": "update/delete post"
+   },
+   "user": {
+
+       "/user/:id" : "get/update/delete user",
+       "/users": "get all users"
+   },
+   "auth": {
+       "/signup": "register a new user",
+       "/signin": "login",
+       "/signout": "logout"
+   },
+   "docs": {
+       "/docs": "documentation of api"
+   }
+}
